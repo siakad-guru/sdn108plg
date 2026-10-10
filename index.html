@@ -96,9 +96,11 @@
         </div>
     </div>
     
+    <!-- PERUBAHAN: atribut allow ditambah camera (scan barcode), web-share (bagikan gambar rekap
+         ke WhatsApp), dan clipboard-write (salin gambar). Selain itu tidak ada yang diubah. -->
     <iframe 
         src="https://script.google.com/macros/s/AKfycbwf56KRAOWAmTPDskstK1Z8hhny4lmP_m-bDYUKwuF_rHMTngJoEu01DFArm8BAx7jD/exec" 
-        allow="autoplay; encrypted-media"
+        allow="autoplay; encrypted-media; camera; web-share; clipboard-write"
         onload="
             var loader = document.getElementById('loader-container');
             loader.style.opacity = '0';
